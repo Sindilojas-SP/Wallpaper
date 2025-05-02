@@ -1,6 +1,6 @@
 # Bloco do Plano de Fundo 
 # Defina a URL do blob e o caminho de destino - Wallpaper
-$blobUrl1 = "https://raw.githubusercontent.com/Sindilojas-SP/Wallpaper/blob/main/Wallpaper.jpg"
+$blobUrl1 = "https://raw.githubusercontent.com/Sindilojas-SP/Wallpaper/main/Wallpaper.jpg"
 $destinationPath1 = "C:\Wallpaper\Wallpaper.jpg"
 
 # Baixe a IMAGEM DO WALLPAPER do blob e salve no caminho de destino
@@ -8,7 +8,7 @@ Invoke-WebRequest -Uri $blobUrl1 -OutFile $destinationPath1
 
 # Bloco da Tela de bloqueio - CASO NÃO PRECISE COMENTE AS LINHAS ABAIXO.
 # Defina a URL do blob e o caminho de destino - LockScreen
-$blobUrl2 = "https://raw.githubusercontent.com/Sindilojas-SP/Wallpaper/blob/main/LockScreen.jpg"
+$blobUrl2 = "https://raw.githubusercontent.com/Sindilojas-SP/Wallpaper/main/LockScreen.jpg"
 $destinationPath2 = "C:\Wallpaper\LockScreen.jpg"
 
 # Baixe a IMAGEM DO LOOK SCREEN do blob e salve no caminho de destino
